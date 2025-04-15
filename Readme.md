@@ -211,3 +211,4 @@ If you encounter issues:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 Please make sure your code follows the existing style and includes appropriate tests.
+# vara-mcp-updated
