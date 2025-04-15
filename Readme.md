@@ -124,9 +124,7 @@ Returns:
 - State root
 
 ### 2. Get Transaction Details
-```
-What's the transaction with hash 0x123...?
-```
+
 Returns:
 - Block number
 - Timestamp
@@ -137,9 +135,6 @@ Returns:
 - Transaction parameters
 
 ### 3. Get Account Information
-```
-What's the account information for address 5H...?
-```
 Returns:
 - Account address
 - Display name (if set)
@@ -149,16 +144,12 @@ Returns:
 - Identity status
 
 ### 4. Get Account Balance
-```
-What's the balance for address 5H...?
-```
+
 Returns:
 - Current balance in VARA tokens
 
 ### 5. Get Account Transaction History
-```
-Show me the last 10 transactions for address 5H...?
-```
+
 Returns:
 - List of recent transactions with:
   - Transaction hash
@@ -167,27 +158,15 @@ Returns:
   - Module and function
   - Success status
 
-For pagination:
-```
-Show me transactions 11-20 for address 5H...?
-```
+
 
 ## Example Usage
 
 1. Checking a block:
-```
-What's block number 21189359?
-```
 
 2. Viewing account balance:
-```
-What's the balance for address kGgwmYab55mPWS3q4wWNTqeis5h7kAK4tFHsm3CEUaYxE2pPK?
-```
 
 3. Getting transaction history:
-```
-Show me the last 5 transactions for address kGgwmYab55mPWS3q4wWNTqeis5h7kAK4tFHsm3CEUaYxE2pPK?
-```
 
 ## Security Considerations
 
